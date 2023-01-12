@@ -19,7 +19,6 @@ fn main() {
         .allowlist_function("FreeBSD_nvlist_.*")
         .allowlist_type("nvlist_t")
         .allowlist_type("FreeBSD_nvlist_t")
-        .blocklist_type(".*va_list")
         .blocklist_type("size_t")
         .blocklist_type("__size_t")
         .blocklist_type("__uint64_t")
